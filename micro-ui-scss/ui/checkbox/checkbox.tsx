@@ -41,7 +41,7 @@ export type CustomCheckboxProps = CheckboxProps & {
   projectType?: string;
 };
 
-/* export const StyledHeader = styled.header`
+export const StyledHeader = styled.header`
   background-color: pink;
 
   .ant-checkbox:hover .ant-checkbox-inner {
@@ -80,17 +80,19 @@ export type CustomCheckboxProps = CheckboxProps & {
     background-color: #64d0d4;
     border-color: #64d0d4;
   }
-`; */
+`;
 
 export function Checkbox({ className, ...otherProps }: CustomCheckboxProps) {
   return (
     <div className={classNames(styles.deneme, className)}>
-      <AntCheckbox
-        className={classNames(styles.deneme, styles.ant , className)}
-        data-testid="my-checkbox"
-        name="cb"
-        {...otherProps}
-      />
+      <StyledHeader>
+        <AntCheckbox
+          className={classNames(styles.deneme, className)}
+          data-testid="my-checkbox"
+          name="cb"
+          {...otherProps}
+        />
+      </StyledHeader>
     </div>
   );
 }
