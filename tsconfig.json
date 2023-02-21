@@ -6,5 +6,10 @@
   },
   "exclude": [
     "dist"
-  ]
+  ],
+  "include": [
+    "style.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+  ],
 }

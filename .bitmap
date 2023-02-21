@@ -9,23 +9,35 @@
  */
 
 {
-    "generator/component-templates": {
-        "scope": "",
-        "version": "",
+    "envs/my-react": {
+        "scope": "yldzmamak.micro-ui-scss",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "micro-ui-scss/generator/component-templates",
-        "config": {
-            "teambit.harmony/aspect": {},
-            "teambit.envs/envs": {
-                "env": "teambit.harmony/aspect"
-            }
-        }
+        "rootDir": "micro-ui-scss/envs/my-react"
+    },
+    "generator/component-templates": {
+        "scope": "yldzmamak.micro-ui-scss",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "micro-ui-scss/generator/component-templates"
+    },
+    "themes/base-theme": {
+        "scope": "",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "micro-ui-scss/themes/base-theme"
     },
     "ui/button": {
-        "scope": "",
-        "version": "6d715c2d81d5e5120f63f855053f34d7faa79b93",
+        "scope": "yldzmamak.micro-ui-scss",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "micro-ui-scss/ui/button"
+    },
+    "ui/checkbox": {
+        "scope": "yldzmamak.micro-ui-scss",
+        "version": "0.0.3",
+        "mainFile": "index.ts",
+        "rootDir": "micro-ui-scss/ui/checkbox"
     },
     "$schema-version": "15.0.0"
 }
