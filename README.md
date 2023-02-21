@@ -31,3 +31,4 @@ This removes the components from the bitmap as well as removes the files.
 - **.gitignore**
 
 Ignoring any files from version control
+# micro-ui-scss
